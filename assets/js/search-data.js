@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-people",
+  },{id: "nav-research",
+          title: "research",
+          description: "Research vision and projects of the Computational Imaging and Discovery Lab.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
+        },{id: "nav-people",
           title: "people",
           description: "Members of the Computational Imaging and Discovery Lab.",
           section: "Navigation",
@@ -392,9 +399,14 @@ ninja.data = [{
       },{id: "news-lab-website-is-live-we-re-recruiting-for-fall-2026-at-yale-mb-amp-amp-b-postdocs-phd-students-master-s-and-undergrads-see-the-about-page-for-details",
           title: 'Lab website is live. We’re recruiting for Fall 2026 at Yale MB&amp;amp;amp;B —...',
           description: "",
-          section: "News",},{id: "projects-2d-template-matching",
-          title: '2D Template Matching',
-          description: "Statistical methods for robust target detection in cryo-EM",
+          section: "News",},{id: "projects-robust-target-detection-with-2dtm-p-value",
+          title: 'Robust target detection with 2DTM p-value',
+          description: "A statistical metric for robust target detection in cryo-EM using high-resolution 2D template matching",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2dtm-pvalue/";
+            },},{id: "projects-sub-50-kda-reconstruction-with-2dtm",
+          title: 'Sub-50 kDa reconstruction with 2DTM',
+          description: "Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2dtm/";
             },},{id: "projects-diffpose",
@@ -407,6 +419,16 @@ ninja.data = [{
           description: "Refining atomic models against cryo-EM images without 3D volumes",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gisapr/";
+            },},{id: "projects-in-situ-single-particle-classification",
+          title: 'In situ single-particle classification',
+          description: "Probabilistic classification of cryo-EM targets directly inside cells using 2DTM",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/insitu/";
+            },},{id: "projects-multiscale-rna-modeling-with-nmr-chemical-shifts",
+          title: 'Multiscale RNA modeling with NMR chemical shifts',
+          description: "Computational methods to determine RNA structures and conformational ensembles from NMR data",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/rna-nmr/";
             },},{
         id: 'social-email',
         title: 'email',
