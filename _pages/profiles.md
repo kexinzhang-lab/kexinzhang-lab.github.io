@@ -16,5 +16,5 @@ profiles:
       <p>Incoming Assistant Professor</p>
       <p>Yale MB&amp;B (Fall 2026)</p>
       <p>333 Cedar Street, New Haven, CT</p>
-      <p><a href="mailto:kexin@example.edu">kexin@example.edu</a></p>
+      <p><a href="mailto:kexin.zhang1@umassmed.edu">kexin.zhang1@umassmed.edu</a></p>
 ---

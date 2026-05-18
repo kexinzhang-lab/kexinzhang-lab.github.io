@@ -15,7 +15,7 @@ profile:
     <p>Yale University</p>
     <p>333 Cedar Street</p>
     <p>New Haven, CT</p>
-    <p><a href="mailto:kexin@example.edu">kexin@example.edu</a></p>
+    <p><a href="mailto:kexin.zhang1@umassmed.edu">kexin.zhang1@umassmed.edu</a></p>
 
 selected_papers: true
 social: true
