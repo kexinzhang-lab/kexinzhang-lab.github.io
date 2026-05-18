@@ -2,7 +2,7 @@
 layout: page
 title: GisAPR
 description: Refining atomic models against cryo-EM images without 3D volumes
-img: assets/img/3.jpg
+img: assets/img/gisapr.png
 importance: 2
 category: methods
 related_publications: false

@@ -13,6 +13,8 @@ profiles:
     image_circular: true
     more_info: >
       <p><strong>Principal Investigator</strong></p>
-      <p>Department / Institute</p>
+      <p>Incoming Assistant Professor</p>
+      <p>Yale MB&amp;B (Fall 2026)</p>
+      <p>333 Cedar Street, New Haven, CT</p>
       <p><a href="mailto:kexin@example.edu">kexin@example.edu</a></p>
 ---

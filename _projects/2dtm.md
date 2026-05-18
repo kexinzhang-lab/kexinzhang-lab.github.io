@@ -2,7 +2,7 @@
 layout: page
 title: 2D Template Matching
 description: Statistical methods for robust target detection in cryo-EM
-img: assets/img/1.jpg
+img: assets/img/2dtm.png
 importance: 3
 category: methods
 related_publications: false

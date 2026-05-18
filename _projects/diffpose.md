@@ -2,7 +2,7 @@
 layout: page
 title: DiffPose
 description: Differentiable projection matching for fast pose inference in cryo-EM
-img: assets/img/12.jpg
+img: assets/img/diffpose.png
 importance: 1
 category: methods
 related_publications: false

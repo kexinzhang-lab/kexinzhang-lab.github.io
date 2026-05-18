@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The **Computational Imaging and Discovery Lab** website is live. Watch this space for project releases, openings, and updates.
+Lab website is live. We're recruiting for **Fall 2026** at Yale MB&B — postdocs, PhD students, master's, and undergrads. See the [about](/) page for details.
