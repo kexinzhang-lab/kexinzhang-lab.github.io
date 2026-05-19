@@ -1,22 +1,22 @@
 ---
 layout: profiles
-permalink: /people/
-title: people
+permalink: /team/
+title: team
 description: Members of the Computational Imaging and Discovery Lab.
 nav: true
-nav_order: 2
+nav_order: 3
 
 profiles:
   - align: right
     image: prof_pic.jpg
-    content: pi_kexin.md
     image_circular: true
     more_info: >
-      <p><strong>Principal Investigator</strong></p>
-      <p>Incoming Assistant Professor</p>
-      <p>Yale MB&amp;B (Fall 2026)</p>
-      <p>333 Cedar Street, New Haven, CT</p>
+      <p><strong>Kexin Zhang, PhD</strong></p>
+      <p>Principal Investigator</p>
+      <p>Assistant Professor, MB&amp;B, Yale University</p>
+      <p>Office: SHM C-11</p>
       <p><a href="mailto:kexin.zhang1@umassmed.edu">kexin.zhang1@umassmed.edu</a></p>
+      <p><a href="/kexin/">More about the PI →</a></p>
 ---
 
 ## Future lab members

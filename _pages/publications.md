@@ -4,7 +4,7 @@ permalink: /publications/
 title: publications
 description: Lab publications, preprints, and software, listed by year.
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
