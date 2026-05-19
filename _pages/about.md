@@ -31,14 +31,16 @@ latest_posts:
   limit: 3
 ---
 
-The **Computational Imaging and Discovery Lab (CID Lab)** is a new research group joining the [Department of Molecular Biophysics and Biochemistry](https://mbb.yale.edu) at Yale University in **Fall 2026**. We develop computational methods at the intersection of cryo-electron microscopy, machine learning, and structural biology — building algorithms, software, and statistical tools that turn noisy biological imaging data into quantitative discoveries.
+The **Computational Imaging and Discovery Lab (CID Lab)** will launch at the [Department of Molecular Biophysics and Biochemistry](https://mbb.yale.edu) at Yale University in **Fall 2026**. We develop theories, algorithms, and software at the intersection of cryo-electron microscopy and tomography, deep learning, and structural biology, turning noisy imaging data into quantitative biological discoveries.
 
 ## Research themes
 
-- **Differentiable cryo-EM.** Fast, gradient-based pose inference and reconstruction methods that scale to large datasets.
-- **Statistical methods for low-SNR imaging.** New metrics and theory for robust target detection in cryo-EM and related modalities.
-- **Direct atomic-model refinement.** Refining structures against 2D images without intermediate 3D volumes.
-- **AI + structure-based discovery.** Coupling learned representations with physics-based models for drug discovery and biological insight.
+We are driven by a central question: **how can we use cryo-EM/ET to uncover the molecular mechanisms of disease and accelerate the discovery of new therapies?** Many of the most biologically important targets — kinases, signaling factors, membrane receptors, and transient assembly intermediates — sit at the edge of what cryo-EM can currently see. By integrating physics, statistics, and machine learning with cryo-EM, we aim to extend its reach into these regimes and turn weak experimental signals into mechanistic discovery.
+
+- **Seeing the unseen — small and flexible drug targets.** Many disease-relevant proteins, including kinases, signaling factors, and membrane receptors, fall below the practical sub-50 kDa limit of conventional cryo-EM or are too flexible to resolve. We develop statistical detection frameworks that bring these targets into reach.
+- **Biomolecules in their cellular environment.** Cellular processes such as ribosome biogenesis, membrane remodeling, and chromatin organization are choreographed by dynamic molecular machines. We extend cryo-EM _in situ_ to detect and reconstruct these machines directly inside cells, mapping pathway intermediates without purification.
+- **Cryo-EM for structure-based drug discovery.** We build computational frameworks that refine AlphaFold and molecular-dynamics predictions against experimental cryo-EM data, resolving ligand-binding pockets and disease-relevant conformations in otherwise inaccessible targets.
+- **From structureome to mechanism.** We are working toward foundation models for cryo-EM that generalize across targets and imaging conditions, connecting the growing _structureome_ with predictive models of how biomolecules function in health and disease.
 
 ## Join us — multiple openings
 
