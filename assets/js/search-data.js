@@ -16,19 +16,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/research/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "Members of the Computational Imaging and Discovery Lab.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
         },{id: "nav-publications",
           title: "publications",
           description: "Lab publications, preprints, and software, listed by year.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
+          },
+        },{id: "nav-team",
+          title: "team",
+          description: "Members of the Computational Imaging and Discovery Lab.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/team/";
+          },
+        },{id: "nav-pi",
+          title: "PI",
+          description: "Kexin Zhang, founder of the Computational Imaging and Discovery Lab.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/kexin/";
           },
         },{id: "nav-projects",
           title: "projects",
@@ -43,6 +50,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/news/";
+          },
+        },{id: "nav-software",
+          title: "software",
+          description: "Open-source tools and software from the Computational Imaging and Discovery Lab.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/software/";
           },
         },{id: "post-a-post-with-plotly-js",
         
