@@ -47,11 +47,9 @@ We ask how cryo-EM and tomography can uncover the molecular mechanisms of diseas
 The lab is actively recruiting for **Fall 2026** and beyond. We welcome applications at every career stage:
 
 - **Postdoctoral fellows** — strong background/interests in cryo-EM/ET, machine learning, applied math, structural biology, or scientific computing. Please email Kexin your CV, a short research statements, and contact info for three references.
-- **PhD students** — students interested in doing a PhD in our lab should apply through Yale's [Yale Biological and Biomedical Sciences (BBS) program](https://medicine.yale.edu/bbs/). If you are already a Yale graduate student and would like to do a rotation with us, please email Kexin directly. We are accepting rotation students for Fall 2026!
+- **PhD students** — students interested in doing a PhD in our lab should apply through Yale's [Biological and Biomedical Sciences (BBS) program](https://medicine.yale.edu/bbs/). If you are already a Yale graduate student and would like to do a rotation with us, please email Kexin directly. We are accepting rotation students for Fall 2026!
 - **Master's students** — Yale master's students interested in cryo-EM methods, ML for imaging, or scientific software are encouraged to reach out.
-- **Undergraduates** — Yale undergraduates looking for research experience in computational imaging are welcome to inquire about projects.
-
-Email Kexin directly with your CV and a brief note about your interests.
+- **Undergraduates** — Yale undergraduates looking for research experience in computational imaging are welcome to inquire about projects. Email Kexin directly with your CV and a brief note about your interests.
 
 <div style="max-width: 220px; margin: 2em auto 0;">
   <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=wiksz8AGcnW1gN9g_ov9H1OP1qYb4fvsgo6lp4dTDno"></script>
