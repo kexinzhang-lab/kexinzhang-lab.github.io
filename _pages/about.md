@@ -53,4 +53,16 @@ The lab is actively recruiting for **Fall 2026** and beyond. We welcome applicat
 
 Email Kexin directly with your CV and a brief note about your interests.
 
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=wiksz8AGcnW1gN9g_ov9H1OP1qYb4fvsgo6lp4dTDno"></script>
+<div style="max-width: 220px; margin: 2em auto 0;">
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=wiksz8AGcnW1gN9g_ov9H1OP1qYb4fvsgo6lp4dTDno"></script>
+</div>
+<style>
+  #clstr_globe + *,
+  div[id^="clustrmaps"],
+  .clstr-globe,
+  [id*="clstr"] canvas,
+  [id*="clstr"] svg {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+</style>
