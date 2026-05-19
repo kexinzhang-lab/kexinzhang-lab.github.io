@@ -17,7 +17,7 @@ profile:
     <p>New Haven, CT</p>
     <p><a href="mailto:kexin.zhang1@umassmed.edu">kexin.zhang1@umassmed.edu</a></p>
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
@@ -44,9 +44,9 @@ The **Computational Imaging and Discovery Lab (CID Lab)** is a new research grou
 
 The lab is actively recruiting for **Fall 2026** and beyond. We welcome applications at every career stage:
 
-- **Postdoctoral fellows** — strong background in machine learning, applied math, structural biology, or scientific computing. Send your CV, a short research statement, and contact info for three references.
-- **PhD students** — apply through Yale's [MB&B graduate program](https://mbb.yale.edu/graduate) (or related programs such as BBS, Computational Biology, or Applied Math) and mention CID Lab in your statement.
+- **Postdoctoral fellows** — strong background/interests in cryo-EM/ET, machine learning, applied math, structural biology, or scientific computing. Please email Kexin your CV, a short research statements, and contact info for three references.
+- **PhD students** — students interested in doing a PhD in our lab should apply through Yale's [Yale Biological and Biomedical Sciences (BBS) program](https://medicine.yale.edu/bbs/). If you are already a Yale graduate student and would like to do a rotation with us, please email Kexin directly. We are accepting rotation students for Fall 2026!
 - **Master's students** — Yale master's students interested in cryo-EM methods, ML for imaging, or scientific software are encouraged to reach out.
 - **Undergraduates** — Yale undergraduates looking for research experience in computational imaging are welcome to inquire about projects.
 
-Email the PI directly with your CV and a brief note about your interests.
+Email Kexin directly with your CV and a brief note about your interests.
