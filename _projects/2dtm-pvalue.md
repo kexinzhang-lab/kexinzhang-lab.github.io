@@ -12,4 +12,4 @@ Detecting smaller targets by 2D template matching (2DTM) is difficult because th
 
 The 2DTM p-value is particularly useful for detecting targets of 50 kDa and smaller, and for reliably detecting rare targets that require higher detection thresholds to suppress false positives.
 
-**Publication:** [A new statistical metric for robust target detection in cryo-EM using 2D template matching](https://doi.org/10.1107/S2052252524011771) · *IUCrJ* (2025).
+**Publication:** [A new statistical metric for robust target detection in cryo-EM using 2D template matching](https://doi.org/10.1107/S2052252524011771) · _IUCrJ_ (2025).

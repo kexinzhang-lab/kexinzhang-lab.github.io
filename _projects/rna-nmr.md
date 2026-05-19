@@ -12,12 +12,12 @@ Non-coding RNAs sample multiple conformational states that are essential to thei
 
 This work — Kexin's PhD thesis — developed three computational frameworks that use chemical shifts to model RNA structure and dynamics:
 
-- **CS-Fold** — chemical-shift-guided *de novo* RNA secondary-structure prediction.
+- **CS-Fold** — chemical-shift-guided _de novo_ RNA secondary-structure prediction.
 - **CS-BME** — probabilistic modeling of RNA conformational ensembles.
 - **CS-Annotate** — chemical-shift-based evaluation of RNA structural models.
 
 **Selected publications**
 
-- [Conditional prediction of RNA secondary structure using chemical shifts](https://pubs.acs.org/doi/full/10.1021/acs.jpcb.9b09814) · *J. Phys. Chem. B* (2019).
-- [Probabilistic modeling of RNA ensembles using NMR chemical shifts](https://pubs.acs.org/doi/10.1021/acs.jpcb.1c05651) · *J. Phys. Chem. B* (2021).
-- [CS-Annotate: A tool for using NMR chemical shifts to annotate RNA structure](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00006) · *J. Chem. Inf. Model.* (2021).
+- [Conditional prediction of RNA secondary structure using chemical shifts](https://pubs.acs.org/doi/full/10.1021/acs.jpcb.9b09814) · _J. Phys. Chem. B_ (2019).
+- [Probabilistic modeling of RNA ensembles using NMR chemical shifts](https://pubs.acs.org/doi/10.1021/acs.jpcb.1c05651) · _J. Phys. Chem. B_ (2021).
+- [CS-Annotate: A tool for using NMR chemical shifts to annotate RNA structure](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00006) · _J. Chem. Inf. Model._ (2021).

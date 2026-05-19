@@ -13,7 +13,7 @@ toc:
 
 Our research is driven by a central question: **how can we transform cryo-EM into a predictive, data-driven science that explains cellular mechanisms and accelerates drug discovery?** To answer it, we develop computational methods that combine AI, statistical modeling, and cryo-EM physics to unlock structures that remain invisible to current pipelines.
 
-Over the past decade, innovations in direct electron detectors (DEDs) and image processing have driven exponential growth in the biomolecular structures solved by cryo-EM. In single-particle cryo-EM, purified biomolecules are dispersed onto a support grid and rapidly frozen into a thin layer of vitreous ice. The grid is then imaged in an electron microscope to record movies — micrographs. Thousands of individual particle images representing different views are picked from these noisy micrographs, aligned, and averaged to reconstruct the high-resolution 3D structure of the macromolecule. Beyond single-particle cryo-EM, thinned cellular samples can be prepared by focused ion beam (FIB) milling and imaged via cryo-electron tomography (cryo-ET) to reconstruct the 3D organization of cellular environments and study biomolecules *in situ*. Since the **resolution revolution** in 2013, cryo-EM has solved many structures that were intractable with other methods.
+Over the past decade, innovations in direct electron detectors (DEDs) and image processing have driven exponential growth in the biomolecular structures solved by cryo-EM. In single-particle cryo-EM, purified biomolecules are dispersed onto a support grid and rapidly frozen into a thin layer of vitreous ice. The grid is then imaged in an electron microscope to record movies — micrographs. Thousands of individual particle images representing different views are picked from these noisy micrographs, aligned, and averaged to reconstruct the high-resolution 3D structure of the macromolecule. Beyond single-particle cryo-EM, thinned cellular samples can be prepared by focused ion beam (FIB) milling and imaged via cryo-electron tomography (cryo-ET) to reconstruct the 3D organization of cellular environments and study biomolecules _in situ_. Since the **resolution revolution** in 2013, cryo-EM has solved many structures that were intractable with other methods.
 
 Yet major challenges remain. Cryo-EM still struggles with **small, flexible, or heterogeneous targets**, and cryo-ET datasets remain noisy, incomplete, and difficult to interpret.
 
@@ -47,7 +47,7 @@ A new statistical metric — **the 2DTM p-value** — that improves detection of
 
 ### 5. [In situ single-particle classification](/projects/insitu/)
 
-A maximum-likelihood method that probabilistically classifies cryo-EM targets detected by 2DTM with multiple templates — the **first demonstration** of *in situ* single-particle classification without 3D reconstruction. Applied to study the 60S ribosome biogenesis pathway in FIB-milled yeast cells.
+A maximum-likelihood method that probabilistically classifies cryo-EM targets detected by 2DTM with multiple templates — the **first demonstration** of _in situ_ single-particle classification without 3D reconstruction. Applied to study the 60S ribosome biogenesis pathway in FIB-milled yeast cells.
 
 ### 6. [Multiscale RNA modeling with NMR chemical shifts](/projects/rna-nmr/)
 
