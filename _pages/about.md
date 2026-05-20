@@ -35,7 +35,7 @@ The **Computational Imaging and Discovery Lab (CID Lab)** will launch at the [De
 
 ## Research interests
 
-We ask how cryo-EM and tomography can uncover the molecular mechanisms of disease and accelerate the discovery of new therapies. Our work combines physics, statistics, and machine learning to push cryo-EM into the regimes where most biology happens — small, flexible, transient, _in situ_.
+We ask how cryo-electron microscopy and tomography (cryo-EM/ET) can uncover the molecular mechanisms of disease and accelerate the discovery of new therapies. Our work combines imaging physics, statistical inference, and machine learning to push cryo-EM into <span style="color: var(--global-theme-color); font-weight: 600;">previously inaccessible regimes</span> of structural biology, enabling the visualization of small, flexible, and transient molecular systems directly inside cells.
 
 - **Seeing the unseen** — Can we extend cryo-EM to detect the small, flexible, and rare biomolecules that drive disease?
 - **Biology in the cellular context** — How do dynamic molecular machines work in their native environments, and can we map them without purification?
