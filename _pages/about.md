@@ -51,16 +51,6 @@ The lab is actively recruiting for **Fall 2026** and beyond. We welcome applicat
 - **Master's students** — Yale master's students interested in cryo-EM methods, ML for imaging, or scientific software are encouraged to reach out.
 - **Undergraduates** — Yale undergraduates looking for research experience in computational imaging are welcome to inquire about projects. Email Kexin directly with your CV and a brief note about your interests.
 
-<div style="max-width: 220px; margin: 2em auto 0;">
-  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=wiksz8AGcnW1gN9g_ov9H1OP1qYb4fvsgo6lp4dTDno"></script>
+<div style="text-align: center; margin: 2em 0;">
+  <img src="//www.clustrmaps.com/map_v2.png?d=wiksz8AGcnW1gN9g_ov9H1OP1qYb4fvsgo6lp4dTDno&cl=ffffff" alt="Visitor map" style="max-width: 260px;">
 </div>
-<style>
-  #clstr_globe + *,
-  div[id^="clustrmaps"],
-  .clstr-globe,
-  [id*="clstr"] canvas,
-  [id*="clstr"] svg {
-    max-width: 100% !important;
-    height: auto !important;
-  }
-</style>
