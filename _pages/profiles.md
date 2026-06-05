@@ -7,20 +7,13 @@ nav: true
 nav_order: 3
 ---
 
-<div class="row align-items-center my-4">
-  <div class="col-md-3 text-center text-md-left">
-    <div style="max-width: 180px; margin: 0 auto;">
-      {% include figure.liquid loading="eager" path="assets/img/prof_pic.jpg" class="img-fluid z-depth-1 rounded-circle" alt="Kexin Zhang" %}
-    </div>
-  </div>
-  <div class="col-md-9 mt-3 mt-md-0">
-    <h3 class="mb-1">Kexin Zhang, PhD</h3>
-    <p class="mb-1">Principal Investigator</p>
-    <p class="mb-1">Assistant Professor, MB&amp;B, Yale University</p>
-    <p class="mb-1">Office: SHM C-11</p>
-    <p class="mb-1"><a href="mailto:kexin.zhang1@umassmed.edu">kexin.zhang1@umassmed.edu</a></p>
-    <p class="mb-0"><a href="/kexin/">More about the PI →</a></p>
-  </div>
+<div class="my-4">
+  <h3 class="mb-1">Kexin Zhang, PhD</h3>
+  <p class="mb-1">Principal Investigator</p>
+  <p class="mb-1">Assistant Professor, MB&amp;B, Yale University</p>
+  <p class="mb-1">Office: SHM C-11</p>
+  <p class="mb-1"><a href="mailto:kexin.zhang1@umassmed.edu">kexin.zhang1@umassmed.edu</a></p>
+  <p class="mb-0"><a href="/kexin/">More about the PI →</a></p>
 </div>
 
 ## Future lab members
