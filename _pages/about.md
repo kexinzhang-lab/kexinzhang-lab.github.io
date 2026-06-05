@@ -4,19 +4,6 @@ title: about
 permalink: /
 subtitle: Computational Imaging and Discovery Lab · PI <a href='/kexin/'>Kexin Zhang</a> · Incoming Assistant Professor, Yale MB&B (Fall 2026)
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: true
-  more_info: >
-    <p><strong>Kexin Zhang, PhD</strong></p>
-    <p>Incoming Assistant Professor</p>
-    <p>Department of Molecular Biophysics and Biochemistry</p>
-    <p>Yale University</p>
-    <p>333 Cedar Street</p>
-    <p>New Haven, CT</p>
-    <p><a href="mailto:kexin.zhang1@umassmed.edu">kexin.zhang1@umassmed.edu</a></p>
-
 selected_papers: false
 social: true
 
