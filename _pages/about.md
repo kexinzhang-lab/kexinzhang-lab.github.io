@@ -37,7 +37,3 @@ The lab is actively recruiting for **Fall 2026** and beyond. We welcome applicat
 - **PhD students** — students interested in doing a PhD in our lab should apply through Yale's [Biological and Biomedical Sciences (BBS) program](https://medicine.yale.edu/bbs/). If you are already a Yale graduate student and would like to do a rotation with us, please email Kexin directly. We are accepting rotation students for Fall 2026!
 - **Master's students** — Yale master's students interested in cryo-EM methods, ML for imaging, or scientific software are encouraged to reach out.
 - **Undergraduates** — Yale undergraduates looking for research experience in computational imaging are welcome to inquire about projects. Email Kexin directly with your CV and a brief note about your interests.
-
-<div style="text-align: center; margin: 2em 0;">
-  <img src="//www.clustrmaps.com/map_v2.png?d=wiksz8AGcnW1gN9g_ov9H1OP1qYb4fvsgo6lp4dTDno&cl=ffffff" alt="Visitor map" style="max-width: 260px;">
-</div>
