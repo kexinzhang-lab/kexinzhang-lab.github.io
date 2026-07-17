@@ -15,7 +15,6 @@ nav_order: 4
     <p>Incoming Assistant Professor (Fall 2026)</p>
     <p>Department of Molecular Biophysics &amp; Biochemistry</p>
     <p>Yale University</p>
-    <p>Office: SHM C-11</p>
     <p><a href="mailto:kexin.zhang1@umassmed.edu">kexin.zhang1@umassmed.edu</a></p>
   </div>
 </div>

@@ -11,7 +11,6 @@ nav_order: 3
   <h3 class="mb-1">Kexin Zhang, PhD</h3>
   <p class="mb-1">Principal Investigator</p>
   <p class="mb-1">Assistant Professor, MB&amp;B, Yale University</p>
-  <p class="mb-1">Office: SHM C-11</p>
   <p class="mb-1"><a href="mailto:kexin.zhang1@umassmed.edu">kexin.zhang1@umassmed.edu</a></p>
   <p class="mb-0"><a href="/kexin/">More about the PI →</a></p>
 </div>
