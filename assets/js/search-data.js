@@ -410,8 +410,8 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "news-lab-website-is-live-we-re-recruiting-for-fall-2026-at-yale-mb-amp-amp-b-postdocs-phd-students-master-s-and-undergrads-see-the-about-page-for-details",
-          title: 'Lab website is live. We’re recruiting for Fall 2026 at Yale MB&amp;amp;amp;B —...',
+      },{id: "news-lab-website-is-live-we-re-recruiting-for-sep-2026-at-yale-mb-amp-amp-b-postdocs-phd-students-master-s-and-undergrads-see-the-about-page-for-details",
+          title: 'Lab website is live. We’re recruiting for Sep 2026 at Yale MB&amp;amp;amp;B —...',
           description: "",
           section: "News",},{id: "projects-robust-target-detection-with-2dtm-p-value",
           title: 'Robust target detection with 2DTM p-value',
