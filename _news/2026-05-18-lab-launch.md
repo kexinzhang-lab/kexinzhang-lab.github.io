@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Lab website is live. We're recruiting for **Fall 2026** at Yale MB&B — postdocs, PhD students, master's, and undergrads. See the [about](/) page for details.
+Lab website is live. We're recruiting for **Sep 2026** at Yale MB&B — postdocs, PhD students, master's, and undergrads. See the [about](/) page for details.
