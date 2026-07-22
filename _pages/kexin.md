@@ -12,10 +12,12 @@ nav_order: 4
   <div class="more-info">
     <p><strong>Kexin Zhang, PhD</strong></p>
     <p>Principal Investigator</p>
-    <p>Incoming Assistant Professor (Fall 2026)</p>
+    <p>Incoming Assistant Professor (Sep 2026)</p>
     <p>Department of Molecular Biophysics &amp; Biochemistry</p>
     <p>Yale University</p>
-    <p><a href="mailto:kexin.zhang1@umassmed.edu">kexin.zhang1@umassmed.edu</a></p>
+    <p>Sterling Hall of Medicine</p>
+    <p>New Haven, CT</p>
+    <p><a href="mailto:kexin.k.zhang@yale.edu">kexin.k.zhang@yale.edu</a></p>
   </div>
 </div>
 
@@ -25,13 +27,13 @@ I am fascinated by how we can see and understand biomolecules from the noisy ima
 
 I received my undergraduate training in chemistry at <span style="color: var(--global-theme-color); font-weight: 600;">Nanjing University</span>. I then moved to the <span style="color: var(--global-theme-color); font-weight: 600;">University of Michigan</span> for my PhD in Chemistry and Scientific Computing, where I worked with <span style="color: var(--global-theme-color); font-weight: 600;">Prof. Aaron Frank</span> on RNA structure prediction by integrating experimental NMR data with machine learning. After my PhD, I joined <span style="color: var(--global-theme-color); font-weight: 600;">Prof. Nikolaus Grigorieff</span>'s lab at <span style="color: var(--global-theme-color); font-weight: 600;">UMass Chan Medical School</span> for postdoctoral training, where I developed methods to push the cryo-EM detection limit toward sub-50 kDa complexes. This work lays the foundation for what we will pursue in my own lab.
 
-In Fall 2026, I will start the Computational Imaging and Discovery Lab in the [Department of Molecular Biophysics and Biochemistry](https://mbb.yale.edu) at Yale University, where we will develop new computational methods for cryo-EM and apply them to challenging molecular systems. Outside the lab, I enjoy reading, spending time with family and friends, and hanging out with my cats.
+In Sep 2026, I will start the Computational Imaging and Discovery Lab in the [Department of Molecular Biophysics and Biochemistry](https://mbb.yale.edu) at Yale University, where we will develop new computational methods for cryo-EM and apply them to challenging molecular systems. Outside the lab, I enjoy reading, spending time with family and friends, and hanging out with my cats.
 
 **Links:** [Google Scholar](https://scholar.google.com/citations?user=uKxshiAAAAAJ&hl=en) · [ORCID](https://orcid.org/0009-0007-0229-9412) · [GitHub](https://github.com/kekexinz)
 
 ## Teaching
 
-Courses I will teach at Yale starting Fall 2026 will be listed here.
+Courses I will teach at Yale starting Sep 2026 will be listed here.
 
 _To be announced._
 
