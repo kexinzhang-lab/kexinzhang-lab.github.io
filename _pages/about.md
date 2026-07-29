@@ -18,9 +18,7 @@ latest_posts:
   limit: 3
 ---
 
-<div class="text-center my-4">
-  <img src="{{ '/assets/img/lab_logo.png' | relative_url }}" alt="Kexin Zhang Lab logo" class="img-fluid" style="max-width: 260px;">
-</div>
+<img src="{{ '/assets/img/lab_logo.png' | relative_url }}" alt="Kexin Zhang Lab logo" class="img-fluid" style="max-width: 220px; float: left; margin: 0 1.5rem 1rem 0;">
 
 The **Kexin Zhang Lab** will launch at the [Department of Molecular Biophysics and Biochemistry](https://mbb.yale.edu) at Yale University on **09/01/2026**. Our theme is **computational imaging and discovery**: we develop theories, algorithms, and software at the intersection of cryo-electron microscopy and tomography, deep learning, and structural biology, turning noisy imaging data into quantitative biological discoveries.
 
