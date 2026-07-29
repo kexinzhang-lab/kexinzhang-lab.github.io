@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "research",
-          description: "Research vision and projects of the Computational Imaging and Discovery Lab.",
+          description: "Research vision and projects of the Kexin Zhang Lab.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
@@ -25,14 +25,14 @@ ninja.data = [{
           },
         },{id: "nav-team",
           title: "team",
-          description: "Members of the Computational Imaging and Discovery Lab.",
+          description: "Members of the Kexin Zhang Lab.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/team/";
           },
         },{id: "nav-pi",
           title: "PI",
-          description: "Kexin Zhang, founder of the Computational Imaging and Discovery Lab.",
+          description: "Kexin Zhang, PI of the Kexin Zhang Lab.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/kexin/";
@@ -53,7 +53,7 @@ ninja.data = [{
           },
         },{id: "nav-software",
           title: "software",
-          description: "Open-source tools and software from the Computational Imaging and Discovery Lab.",
+          description: "Open-source tools and software from the Kexin Zhang Lab.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/software/";
