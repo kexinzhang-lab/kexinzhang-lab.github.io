@@ -2,20 +2,20 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: CID Lab @ Yale # the website title (if blank, full name will be used instead)
+title: Kexin Zhang Lab @ Yale # the website title (if blank, full name will be used instead)
 first_name: Kexin
 middle_name:
 last_name: Zhang
 contact_note: >
   We welcome inquiries from prospective students, postdocs, and collaborators.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Computational Imaging and Discovery Lab — developing computational methods at the intersection of cryo-EM, machine learning, and structural biology.
+  Kexin Zhang Lab — Computational Imaging and Discovery: developing computational methods at the intersection of cryo-EM, machine learning, and structural biology.
 footer_text: >
-  &copy; Computational Imaging and Discovery Lab.
+  &copy; Kexin Zhang Lab.
   Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: cryo-EM, computational imaging, machine learning, structural biology, research lab
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🔬 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: lab_logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://kexinzhang-lab.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root.
@@ -90,8 +90,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: CID Lab News # blog_name will be displayed in your blog page
-blog_description: Updates, releases, and notes from the Computational Imaging and Discovery Lab.
+blog_name: Kexin Zhang Lab News # blog_name will be displayed in your blog page
+blog_description: Updates, releases, and notes from the Kexin Zhang Lab.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 

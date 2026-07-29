@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /research/
-description: Research vision and projects of the Computational Imaging and Discovery Lab.
+description: Research vision and projects of the Kexin Zhang Lab.
 nav: true
 nav_order: 1
 toc:

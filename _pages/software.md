@@ -2,7 +2,7 @@
 layout: page
 title: software
 permalink: /software/
-description: Open-source tools and software from the Computational Imaging and Discovery Lab.
+description: Open-source tools and software from the Kexin Zhang Lab.
 nav: true
 nav_order: 7
 ---

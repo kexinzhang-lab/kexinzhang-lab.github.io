@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computational Imaging and Discovery Lab · PI <a href='/kexin/'>Kexin Zhang</a> · Incoming Assistant Professor, Yale MB&B (09/01/2026)
+subtitle: Computational Imaging and Discovery · PI <a href='/kexin/'>Kexin Zhang</a> · Incoming Assistant Professor, Yale MB&B (09/01/2026)
 
 selected_papers: false
 social: true
@@ -18,7 +18,11 @@ latest_posts:
   limit: 3
 ---
 
-The **Computational Imaging and Discovery Lab (CID Lab)** will launch at the [Department of Molecular Biophysics and Biochemistry](https://mbb.yale.edu) at Yale University on **09/01/2026**. We develop theories, algorithms, and software at the intersection of cryo-electron microscopy and tomography, deep learning, and structural biology, turning noisy imaging data into quantitative biological discoveries.
+<div class="text-center my-4">
+  <img src="{{ '/assets/img/lab_logo.png' | relative_url }}" alt="Kexin Zhang Lab logo" class="img-fluid" style="max-width: 260px;">
+</div>
+
+The **Kexin Zhang Lab** will launch at the [Department of Molecular Biophysics and Biochemistry](https://mbb.yale.edu) at Yale University on **09/01/2026**. Our theme is **computational imaging and discovery**: we develop theories, algorithms, and software at the intersection of cryo-electron microscopy and tomography, deep learning, and structural biology, turning noisy imaging data into quantitative biological discoveries.
 
 ## Research interests
 

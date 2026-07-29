@@ -2,7 +2,7 @@
 layout: page
 permalink: /team/
 title: team
-description: Members of the Computational Imaging and Discovery Lab.
+description: Members of the Kexin Zhang Lab.
 nav: true
 nav_order: 3
 ---
@@ -18,6 +18,6 @@ nav_order: 3
 
 ## Future lab members
 
-The CID Lab is actively recruiting **postdocs, graduate students, and undergraduates** to join us in **Sep 2026** and beyond. If you are excited about cryo-EM, machine learning, or computational methods for structural biology, we would love to hear from you.
+The Kexin Zhang Lab is actively recruiting **postdocs, graduate students, and undergraduates** to join us in **Sep 2026** and beyond. If you are excited about cryo-EM, machine learning, or computational methods for structural biology, we would love to hear from you.
 
 See the [home page]({{ '/' | relative_url }}) for details on current openings, or email Kexin directly with your CV and a short note about your interests.
