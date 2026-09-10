@@ -1,0 +1,56 @@
+.home-research-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.3fr);
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2.25rem;
+
+  .home-research-copy {
+    min-width: 0;
+
+    p {
+      margin: 0;
+      font-size: 1.0625rem;
+      line-height: 1.85;
+    }
+  }
+
+  .home-research-visual {
+    min-width: 0;
+    margin: 0;
+
+    a {
+      display: block;
+      border-radius: 0.3rem;
+      overflow: hidden;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      background: #fff;
+    }
+
+    a:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 5px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+
+    .home-research-copy p {
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    .home-research-visual {
+      width: 100%;
+      max-width: 38rem;
+      margin: 0 auto;
+    }
+  }
+}

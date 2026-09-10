@@ -59,6 +59,29 @@
     color: var(--global-text-color);
   }
 
+  .navbar-brand.lab-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    max-width: calc(100% - 4.5rem);
+    font-size: 1.05rem;
+    line-height: 1.2;
+    white-space: normal;
+  }
+
+  .lab-brand-logo {
+    display: block;
+    flex: 0 0 36px;
+    width: 36px;
+    height: 36px;
+    border-radius: 0.25rem;
+    background: #fff;
+  }
+
+  .lab-brand-name {
+    color: inherit;
+  }
+
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
 
@@ -172,7 +195,7 @@
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   #light-toggle {
     transform: translateY(4px);
   }

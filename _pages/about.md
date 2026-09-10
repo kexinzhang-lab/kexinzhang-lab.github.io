@@ -17,9 +17,16 @@ latest_posts:
   limit: 3
 ---
 
-<img src="{{ '/assets/img/lab_logo.png' | relative_url }}" alt="Kexin Zhang Lab logo" class="img-fluid" style="max-width: 220px; float: left; margin: 0 1.5rem 1rem 0;">
-
-We ask how cryo-electron microscopy and tomography (cryo-EM/ET) can uncover the molecular mechanisms of disease and accelerate the discovery of new therapies. Our work combines imaging physics, statistical inference, and machine learning to push cryo-EM into **previously inaccessible regimes** of structural biology, enabling the visualization of small, flexible, and transient molecular systems directly inside cells.
+<div class="home-research-intro">
+  <div class="home-research-copy">
+    <p>We ask how cryo-electron microscopy and tomography (cryo-EM/ET) can uncover the molecular mechanisms of disease and accelerate the discovery of new therapies. Our work combines imaging physics, statistical inference, and machine learning to push cryo-EM into <strong>previously inaccessible regimes</strong> of structural biology, enabling the visualization of small, flexible, and transient molecular systems directly inside cells.</p>
+  </div>
+  <figure class="home-research-visual">
+    <a href="{{ '/assets/img/research-overview-draft.png' | relative_url }}" aria-label="View the research overview at full size">
+      <img src="{{ '/assets/img/research-overview-draft.png' | relative_url }}" alt="Cryo-EM imaging, structural biology, and AI/ML come together to detect molecular targets, infer structures and states, and discover hidden patterns of cellular organization." width="1448" height="1086" fetchpriority="high">
+    </a>
+  </figure>
+</div>
 
 - **Seeing the unseen** — How can we study small, flexible, and rare biomolecules that are hard to see? We develop methods to detect weak signals and recover their 3D structures.
 - **Biology inside cells** — How do molecular machines work in their native environment? We aim to map their locations and structural states to uncover hidden patterns of cellular organization.
