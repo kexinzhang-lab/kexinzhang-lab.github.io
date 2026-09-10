@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: research_project
 title: In situ single-particle classification
 description: Probabilistic classification of cryo-EM targets directly inside cells using 2DTM
 img: assets/img/insitu.jpg

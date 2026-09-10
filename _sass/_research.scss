@@ -1,0 +1,220 @@
+.research-page,
+.research-detail {
+  .research-figure {
+    width: 100%;
+    max-width: 52rem;
+    margin: 0 auto;
+  }
+
+  .research-image-link {
+    position: relative;
+    display: block;
+    background: #fff;
+    border-radius: 0.3rem;
+    overflow: hidden;
+  }
+
+  .research-figure img,
+  .research-figure video {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 0.3rem;
+  }
+
+  .research-expand {
+    position: absolute;
+    right: 0.8rem;
+    bottom: 0.8rem;
+    padding: 0.35rem 0.65rem;
+    border-radius: 0.2rem;
+    background: rgba(255, 255, 255, 0.95);
+    color: #20344e;
+    font-size: 0.72rem;
+    letter-spacing: 0.025em;
+  }
+
+  figcaption,
+  .research-note {
+    margin-top: 0.9rem;
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+
+  a:focus-visible,
+  video:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 5px;
+  }
+}
+
+.research-page {
+  .research-intro {
+    max-width: 48rem;
+
+    h2 {
+      margin: 0 0 1rem;
+      font-size: clamp(1.65rem, 3vw, 2.2rem);
+      line-height: 1.2;
+      font-weight: 500;
+      letter-spacing: -0.025em;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.75;
+    }
+  }
+
+  .research-overview {
+    max-width: 43rem;
+    margin: 2rem auto 2.5rem;
+    text-align: center;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      background: #fff;
+    }
+  }
+
+  .research-eyebrow {
+    display: block;
+    margin-bottom: 0.9rem;
+    color: var(--global-text-color-light);
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+
+  .research-index {
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--global-divider-color);
+
+    ol {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 2rem;
+      margin: 0;
+      padding-left: 1.25rem;
+      font-size: 0.9rem;
+    }
+
+    li {
+      padding-left: 0.1rem;
+    }
+
+    li::marker {
+      color: var(--global-text-color-light);
+      font-size: 0.75rem;
+    }
+  }
+
+  .research-project {
+    padding: 3.5rem 0;
+    border-top: 1px solid var(--global-divider-color);
+    scroll-margin-top: 6rem;
+  }
+
+  .research-project-copy {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.25fr);
+    gap: 3rem;
+    align-items: start;
+    margin-bottom: 2rem;
+
+    h2 {
+      margin: 0;
+      font-size: clamp(1.5rem, 2.7vw, 1.9rem);
+      line-height: 1.25;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+    }
+
+    .research-project-summary > p {
+      margin-bottom: 1.15rem;
+      line-height: 1.75;
+    }
+  }
+
+  #diffpose .research-figure,
+  #molecules-in-cells .research-figure {
+    max-width: 43rem;
+  }
+
+  .research-number {
+    margin-right: 0.5rem;
+    color: var(--global-theme-color);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .research-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+
+  .research-note {
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+}
+
+.research-detail {
+  .research-back {
+    display: inline-block;
+    margin: 0 0 1.75rem;
+    font-size: 0.9rem;
+  }
+
+  .research-detail-body {
+    margin: 2.5rem 0;
+    line-height: 1.8;
+  }
+
+  .research-gallery {
+    display: grid;
+    gap: 2.75rem;
+    padding-top: 2.5rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+}
+
+@media (max-width: 700px) {
+  .research-page {
+    .research-overview {
+      margin: 1.5rem auto 2rem;
+    }
+
+    .research-index ol {
+      gap: 0.5rem 1.75rem;
+    }
+
+    .research-project {
+      padding: 2.5rem 0;
+    }
+
+    .research-project-copy {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .research-page,
+  .research-detail {
+    .research-expand {
+      position: static;
+      display: block;
+      text-align: right;
+      padding: 0.45rem 0.6rem;
+    }
+  }
+}

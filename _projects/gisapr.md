@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: research_project
 title: GisAPR
 description: Refining atomic models against cryo-EM images without 3D volumes
 img: assets/img/gisapr.png

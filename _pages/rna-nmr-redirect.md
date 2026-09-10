@@ -1,7 +1,7 @@
 ---
 layout: page_redirect
-title: projects
-permalink: /projects/
+title: Research
+permalink: /projects/rna-nmr/
 nav: false
 sitemap: false
 redirect_to: /research/

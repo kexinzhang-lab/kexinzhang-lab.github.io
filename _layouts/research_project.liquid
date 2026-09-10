@@ -1,0 +1,20 @@
+---
+layout: page
+---
+{% assign research = site.data.research | where: 'details', page.url | first %}
+<div class="research-detail">
+  <a class="research-back" href="{{ '/research/' | relative_url }}#{{ research.id }}">&larr; All research projects</a>
+  {% if research %}
+    {% include research_media.liquid media=research %}
+  {% endif %}
+  <div class="research-detail-body">
+    {{ content }}
+  </div>
+  {% if research.gallery %}
+    <div class="research-gallery">
+      {% for figure in research.gallery %}
+        {% include research_media.liquid media=figure %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>

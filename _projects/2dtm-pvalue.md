@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: research_project
 title: Robust target detection with 2DTM p-value
 description: A statistical metric for robust target detection in cryo-EM using high-resolution 2D template matching
 img: assets/img/2dtm_pvalue.png

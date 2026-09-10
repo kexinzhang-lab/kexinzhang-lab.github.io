@@ -1,0 +1,34 @@
+position: Assistant Professor
+department: Molecular Biophysics & Biochemistry
+institution: Yale University
+email: kexin.k.zhang@yale.edu
+office:
+  - SHM CE11
+  - Sterling Hall of Medicine
+  - New Haven, Connecticut
+profiles:
+  - title: Google Scholar
+    url: https://scholar.google.com/citations?user=uKxshiAAAAAJ&hl=en
+  - title: ORCID
+    url: https://orcid.org/0009-0007-0229-9412
+  - title: GitHub
+    url: https://github.com/kekexinz
+
+# Education and training: https://kekexinz.github.io/cv/
+sections:
+  - id: education
+    title: Education & Training
+    items:
+      - period: 2020–2026
+        title: Postdoctoral training
+        institution: UMass Chan Medical School / HHMI
+        details:
+          - "Advisor: Nikolaus Grigorieff"
+      - period: 2015–2020
+        title: PhD, Chemistry and Scientific Computing
+        institution: University of Michigan, Ann Arbor
+        details:
+          - "Advisor: Aaron Frank"
+      - period: 2011–2015
+        title: BS, Chemistry
+        institution: Nanjing University

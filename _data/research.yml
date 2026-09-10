@@ -1,0 +1,100 @@
+- id: diffpose
+  short_title: Image alignment
+  method: DiffPose
+  title: Faster ways to read cryo-EM images
+  summary: >-
+    Which way is each molecule facing? We use AI and imaging physics to match
+    a molecule's orientation to its microscope image. Faster alignment helps
+    us turn large image collections into 3D structures.
+  details: /projects/diffpose/
+  image: /assets/img/diffpose.png
+  video: /assets/video/research/pose-refinement.mp4
+  poster: /assets/img/research/pose-refinement.png
+  width: 1920
+  height: 1920
+  alt: An animated orientation search shows the predicted pose moving toward the known molecular orientation on a sphere.
+  caption: Watch DiffPose refine a molecule's orientation, step by step.
+  gallery:
+    - video: /assets/video/research/particle-alignment.mp4
+      poster: /assets/img/research/particle-alignment.png
+      width: 1920
+      height: 1920
+      alt: An animation shows the predicted orientations of 64 particles converging toward their known orientations.
+      caption: The same approach refines orientations across 64 particles.
+    - image: /assets/img/diffpose.png
+      width: 1024
+      height: 768
+      alt: A path on a sphere links projected views of a molecule as its estimated orientation improves.
+      caption: A closer look at the projection-matching trajectory.
+
+- id: gisapr
+  short_title: Atomic models
+  method: GisAPR
+  title: Building atomic models from images
+  summary: >-
+    We adjust the positions of atoms to match microscope images directly.
+    This connects structural models to the original measurements, without
+    first building a 3D map.
+  details: /projects/gisapr/
+  image: /assets/img/gisapr.png
+  width: 1224
+  height: 692
+  alt: A molecular ribbon model with a highlighted region and two structural conformations shown in purple and cream.
+  caption: Molecular models connect the positions of atoms to what we see in an image.
+
+- id: small-proteins
+  short_title: Small proteins
+  method: 2D template matching
+  title: Seeing smaller proteins more clearly
+  summary: >-
+    Small proteins are difficult to see in noisy images. We use known
+    structures as guides to find and align them, revealing finer details
+    of their shapes and the pockets where drugs can bind.
+  details: /projects/2dtm/
+  image: /assets/img/2dtm.png
+  width: 1925
+  height: 788
+  alt: Before and after views of the ATP binding pocket show improved molecular detail with 2D template matching.
+  caption: A clearer view of ATP and its binding pocket in a small protein kinase A complex.
+  paper: https://doi.org/10.7554/eLife.109790.1
+  paper_label: eLife, 2026
+  gallery:
+    - image: /assets/img/2dtm_reconstruction.png
+      width: 3254
+      height: 2039
+      alt: Three reconstructions compare protein features and ATP density in protein kinase A.
+      caption: A closer comparison of protein and ligand density across reconstructions.
+
+- id: target-detection
+  short_title: Target detection
+  method: 2DTM p-value
+  title: Finding weak signals in noisy images
+  summary: >-
+    Is a faint feature a real molecule or just noise? We developed a statistical
+    score that helps tell them apart, making it easier to detect challenging
+    targets while controlling false positives.
+  details: /projects/2dtm-pvalue/
+  image: /assets/img/2dtm_pvalue.png
+  width: 2800
+  height: 1400
+  alt: Scatter plots compare conventional 2DTM detection thresholds with the p-value approach, highlighting true positives.
+  caption: A new detection score helps separate molecular signals from noise.
+  paper: https://doi.org/10.1107/S2052252524011771
+  paper_label: IUCrJ, 2025
+
+- id: molecules-in-cells
+  short_title: Molecules in cells
+  method: In situ classification
+  title: Locating molecular machines inside cells
+  summary: >-
+    We identify different stages of ribosome assembly directly in images
+    of cells. Mapping where these molecular machines are helps us understand
+    how cells build them, without taking them out of their native environment.
+  details: /projects/insitu/
+  image: /assets/img/insitu.jpg
+  width: 1500
+  height: 1245
+  alt: Cryo-EM images and analysis show different 60S ribosome maturation states in the nucleus and cytoplasm of yeast cells.
+  caption: Different ribosome states can be identified and mapped inside a yeast cell.
+  paper: https://elifesciences.org/articles/79272
+  paper_label: eLife, 2022

@@ -1,0 +1,32 @@
+{% assign media = include.media %}
+<figure class="research-figure{% if media.video %} research-video{% endif %}">
+  {% if media.video %}
+    <video
+      controls
+      loop
+      muted
+      playsinline
+      preload="none"
+      poster="{{ media.poster | relative_url }}"
+      width="{{ media.width }}"
+      height="{{ media.height }}"
+      aria-label="{{ media.alt | escape }}"
+    >
+      <source src="{{ media.video | relative_url }}" type="video/mp4">
+      <a href="{{ media.video | relative_url }}">Watch the research animation</a>.
+    </video>
+  {% else %}
+    <a class="research-image-link" href="{{ media.image | relative_url }}" aria-label="View full figure: {{ media.alt | escape }}">
+      <img
+        src="{{ media.image | relative_url }}"
+        alt="{{ media.alt | escape }}"
+        width="{{ media.width }}"
+        height="{{ media.height }}"
+        loading="lazy"
+        decoding="async"
+      >
+      <span class="research-expand" aria-hidden="true">View figure &nearr;</span>
+    </a>
+  {% endif %}
+  <figcaption>{{ media.caption }}</figcaption>
+</figure>

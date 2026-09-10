@@ -1,0 +1,148 @@
+.biography-page {
+  .biography-back {
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+  }
+
+  .biography-intro,
+  .biography-section {
+    display: grid;
+    grid-template-columns: minmax(0, 14rem) minmax(0, 1fr);
+    align-items: start;
+    gap: 3rem;
+  }
+
+  .biography-intro {
+    padding-bottom: 3rem;
+  }
+
+  .biography-contact {
+    min-width: 0;
+    font-size: 0.9rem;
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 11.25rem;
+      height: auto;
+      border-radius: 0.35rem;
+    }
+
+    dl {
+      margin: 1.5rem 0;
+    }
+
+    dt {
+      margin-bottom: 0.35rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+
+    dd {
+      margin: 0 0 1.25rem;
+      line-height: 1.7;
+      color: var(--global-text-color-light);
+    }
+
+    a {
+      overflow-wrap: anywhere;
+    }
+  }
+
+  .biography-profiles {
+    display: grid;
+    gap: 0.6rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 0.85rem;
+  }
+
+  .biography-copy {
+    min-width: 0;
+    line-height: 1.8;
+
+    p {
+      margin-bottom: 1.25rem;
+    }
+
+    .biography-position {
+      margin-bottom: 1.75rem;
+      color: var(--global-text-color-light);
+      font-size: 0.95rem;
+    }
+  }
+
+  .biography-section {
+    padding: 2.5rem 0;
+    border-top: 1px solid var(--global-divider-color);
+    scroll-margin-top: 6rem;
+
+    h2 {
+      margin: 0;
+      font-size: 1.65rem;
+      font-weight: 500;
+      line-height: 1.3;
+      letter-spacing: -0.02em;
+    }
+  }
+
+  .biography-entries {
+    display: grid;
+    gap: 1.8rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    h3 {
+      margin: 0 0 0.4rem;
+      font-size: 1.08rem;
+      font-weight: 500;
+      line-height: 1.5;
+    }
+
+    p {
+      margin-bottom: 0.25rem;
+      line-height: 1.65;
+    }
+
+    .biography-period {
+      margin-bottom: 0.45rem;
+      color: var(--global-theme-color);
+      font-size: 0.82rem;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .biography-institution,
+    .biography-detail {
+      color: var(--global-text-color-light);
+      font-size: 0.9rem;
+    }
+  }
+
+  a:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 5px;
+  }
+
+  @media (max-width: 700px) {
+    .biography-intro,
+    .biography-section {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 1.5rem;
+    }
+
+    .biography-contact img {
+      max-width: 10rem;
+    }
+
+    .biography-profiles {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem 1.25rem;
+    }
+  }
+}

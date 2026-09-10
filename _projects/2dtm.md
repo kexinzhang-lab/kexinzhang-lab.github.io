@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: research_project
 title: Sub-50 kDa reconstruction with 2DTM
 description: Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching
 img: assets/img/2dtm_reconstruction.png

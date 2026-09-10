@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: research_project
 title: DiffPose
 description: Differentiable projection matching for fast pose inference in cryo-EM
 img: assets/img/diffpose.png

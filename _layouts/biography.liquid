@@ -1,0 +1,69 @@
+---
+layout: page
+---
+{% assign person = site.data.kexin %}
+<div class="biography-page">
+  <a class="biography-back" href="{{ '/team/' | relative_url }}#kexin">&larr; Back to the team</a>
+  <div class="biography-intro">
+    <aside class="biography-contact" aria-label="Contact information">
+      <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Kexin Zhang" width="1254" height="1254" fetchpriority="high">
+      <dl>
+        <dt>Email</dt>
+        <dd>
+          <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+        </dd>
+        {% if person.phone %}
+          <dt>Phone</dt>
+          <dd>{{ person.phone }}</dd>
+        {% endif %}
+        <dt>Office</dt>
+        <dd>
+          {% for line in person.office %}
+            {{ line | escape -}}
+            {%- unless forloop.last %}<br>{% endunless %}
+          {% endfor %}
+        </dd>
+      </dl>
+      <ul class="biography-profiles" aria-label="Academic profiles">
+        {% for profile in person.profiles %}
+          <li>
+            <a href="{{ profile.url | escape }}">
+              {{- profile.title }}
+              <span aria-hidden="true">&nearr;</span></a
+            >
+          </li>
+        {% endfor %}
+      </ul>
+    </aside>
+    <div class="biography-copy">
+      <p class="biography-position">
+        {{ person.position -}}
+        <br>
+        {{ person.department -}}
+        <br>
+        {{ person.institution }}
+      </p>
+      {{ content }}
+    </div>
+  </div>
+
+  {% for section in person.sections %}
+    <section class="biography-section" aria-labelledby="{{ section.id }}">
+      <h2 id="{{ section.id }}">{{ section.title }}</h2>
+      <ul class="biography-entries">
+        {% for entry in section.items %}
+          <li>
+            {% if entry.period %}
+              <p class="biography-period">{{ entry.period }}</p>
+            {% endif %}
+            <h3>{{ entry.title }}</h3>
+            <p class="biography-institution">{{ entry.institution }}</p>
+            {% for detail in entry.details %}
+              <p class="biography-detail">{{ detail }}</p>
+            {% endfor %}
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endfor %}
+</div>
