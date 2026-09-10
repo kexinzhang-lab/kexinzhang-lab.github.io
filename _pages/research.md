@@ -13,13 +13,6 @@ nav_order: 1
     <p>We combine cryo-electron microscopy and tomography (cryo-EM/ET), AI, and structural biology to find molecules and understand their structures and states. By bringing these approaches together, we aim to uncover hidden patterns in how molecules are organized within cells.</p>
   </div>
 
-  <figure class="research-overview">
-    <a href="{{ '/assets/img/research-overview-draft.png' | relative_url }}" aria-label="View the research overview at full size">
-      <img src="{{ '/assets/img/research-overview-draft.png' | relative_url }}" alt="Cryo-EM imaging, structural biology, and AI/ML overlap to support three shared goals: detect molecular targets, infer structures and states, and discover hidden patterns of cellular organization." width="1448" height="1086" fetchpriority="high">
-    </a>
-    <figcaption>Three disciplines working together to detect, infer, and discover.</figcaption>
-  </figure>
-
   <nav class="research-index" aria-label="Research projects">
     <span class="research-eyebrow">Explore our projects</span>
     <ol>

@@ -68,19 +68,6 @@
     }
   }
 
-  .research-overview {
-    max-width: 43rem;
-    margin: 2rem auto 2.5rem;
-    text-align: center;
-
-    img {
-      display: block;
-      width: 100%;
-      height: auto;
-      background: #fff;
-    }
-  }
-
   .research-eyebrow {
     display: block;
     margin-bottom: 0.9rem;
@@ -189,10 +176,6 @@
 
 @media (max-width: 700px) {
   .research-page {
-    .research-overview {
-      margin: 1.5rem auto 2rem;
-    }
-
     .research-index ol {
       gap: 0.5rem 1.75rem;
     }
