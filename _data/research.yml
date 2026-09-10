@@ -3,9 +3,9 @@
   method: DiffPose
   title: Faster in situ template searches
   summary: >-
-    We develop faster projection-matching methods to scan cellular cryo-EM
-    images against large libraries of molecular templates. Our goal is to
-    make these searches practical for identifying molecules directly inside cells.
+    We speed up projection matching so cellular cryo-EM images can be searched
+    against many molecular templates. Our goal is to make large-scale in situ
+    searches practical for identifying molecules directly inside cells.
   details: /projects/diffpose/
   image: /assets/img/diffpose.png
   video: /assets/video/research/pose-refinement.mp4
@@ -30,11 +30,11 @@
 - id: gisapr
   short_title: Atomic models
   method: GisAPR
-  title: Building atomic models from images
+  title: Refining atomic models directly from images
   summary: >-
-    We adjust the atomic model to match observed images directly.
-    This connects structural models to the original measurements, without
-    first building a 3D map.
+    We adjust the atomic model to match observed 2D cryo-EM images directly.
+    This lets us refine molecular structures without first reconstructing
+    a 3D map.
   details: /projects/gisapr/
   image: /assets/img/gisapr.png
   width: 1224
@@ -45,11 +45,11 @@
 - id: small-proteins
   short_title: Sub-50 kDa
   method: Sub-50 kDa
-  title: Seeing proteins below 50 kDa
+  title: Resolving structures below 50 kDa
   summary: >-
-    Small proteins (below 50 kDa) are difficult to see in noisy images. We use known
-    structures as templates to find and align them, revealing finer details
-    of their shapes and the pockets where drugs can bind.
+    We use known structures as templates to select and align images of proteins
+    smaller than 50 kDa. This improves single-particle cryo-EM reconstructions,
+    revealing clearer details of ligands and their binding pockets.
   details: /projects/sub-50-kda/
   image: /assets/img/2dtm.png
   width: 1925
@@ -68,11 +68,11 @@
 - id: target-detection
   short_title: Target detection
   method: 2DTM p-value
-  title: Finding weak signals in noisy images
+  title: Detecting small and rare molecular targets
   summary: >-
-    Is a faint feature a real molecule or just noise? We developed a statistical
-    score that helps tell them apart, making it easier to detect challenging
-    targets while controlling false positives.
+    We developed the 2DTM p-value, a statistical score that helps distinguish
+    molecular signals from noise in cryo-EM images. It improves detection of
+    small and rare targets while controlling false positives.
   details: /projects/2dtm-pvalue/
   image: /assets/img/2dtm_pvalue.png
   width: 2800
@@ -83,18 +83,19 @@
   paper_label: IUCrJ, 2025
 
 - id: molecules-in-cells
-  short_title: Molecules in cells
+  short_title: Molecular states in cells
   method: In situ classification
-  title: Locating molecular machines inside cells
+  title: Distinguishing molecular states inside cells
   summary: >-
-    We identify different stages of ribosome assembly directly in images
-    of cells. Mapping where these molecular machines are helps us understand
-    how cells build them, without taking them out of their native environment.
+    We distinguish different stages of ribosome assembly directly in cellular
+    cryo-EM images, without reconstructing a 3D map. Using multiple templates
+    and a statistical model, we classify individual ribosomes and map where
+    these distinct states occur inside cells.
   details: /projects/insitu/
   image: /assets/img/insitu.jpg
   width: 1500
   height: 1245
   alt: Cryo-EM images and analysis show different 60S ribosome maturation states in the nucleus and cytoplasm of yeast cells.
-  caption: Different ribosome states can be identified and mapped inside a yeast cell.
+  caption: Distinct 60S ribosome maturation states classified and mapped inside yeast cells.
   paper: https://elifesciences.org/articles/79272
   paper_label: eLife, 2022
