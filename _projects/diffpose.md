@@ -1,19 +1,15 @@
 ---
 layout: research_project
 title: DiffPose
-description: Differentiable projection matching for fast pose inference in cryo-EM
+description: Fast projection matching for large-scale in situ template searches
 img: assets/img/diffpose.png
 importance: 1
 category: methods
 related_publications: false
 ---
 
-**DiffPose** is a differentiable framework for pose inference in cryo-electron microscopy. By replacing exhaustive projection matching with gradient-based optimization, DiffPose enables fast, accurate orientation refinement on large single-particle datasets.
+**DiffPose** accelerates projection matching by using a differentiable imaging model to refine molecular orientations. Efficient matching is important when cellular cryo-EM images need to be searched against many possible molecular templates.
 
-**Key ideas**
-
-- Differentiable projection operator that backpropagates pose gradients through the imaging model.
-- GPU-efficient implementation suitable for hundreds of thousands of particles.
-- Compatible with downstream 3D reconstruction pipelines.
+Our goal is to make these large-scale _in situ_ searches practical, so we can identify molecular targets directly in their cellular environment.
 
 **Status:** preprint available; software release in preparation.

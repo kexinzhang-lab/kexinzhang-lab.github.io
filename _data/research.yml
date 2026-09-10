@@ -1,11 +1,11 @@
 - id: diffpose
-  short_title: Image alignment
+  short_title: Template search
   method: DiffPose
-  title: Faster ways to read cryo-EM images
+  title: Faster in situ template searches
   summary: >-
-    Which way is each molecule facing? We use AI and imaging physics to match
-    a molecule's orientation to its microscope image. Faster alignment helps
-    us turn large image collections into 3D structures.
+    We develop faster projection-matching methods to scan cellular cryo-EM
+    images against large libraries of molecular templates. Our goal is to
+    make these searches practical for identifying molecules directly inside cells.
   details: /projects/diffpose/
   image: /assets/img/diffpose.png
   video: /assets/video/research/pose-refinement.mp4
@@ -32,7 +32,7 @@
   method: GisAPR
   title: Building atomic models from images
   summary: >-
-    We adjust the positions of atoms to match microscope images directly.
+    We adjust the atomic model to match observed images directly.
     This connects structural models to the original measurements, without
     first building a 3D map.
   details: /projects/gisapr/
@@ -43,14 +43,14 @@
   caption: Molecular models connect the positions of atoms to what we see in an image.
 
 - id: small-proteins
-  short_title: Small proteins
-  method: 2D template matching
-  title: Seeing smaller proteins more clearly
+  short_title: Sub-50 kDa
+  method: Sub-50 kDa
+  title: Seeing proteins below 50 kDa
   summary: >-
-    Small proteins are difficult to see in noisy images. We use known
-    structures as guides to find and align them, revealing finer details
+    Small proteins (below 50 kDa) are difficult to see in noisy images. We use known
+    structures as templates to find and align them, revealing finer details
     of their shapes and the pockets where drugs can bind.
-  details: /projects/2dtm/
+  details: /projects/sub-50-kda/
   image: /assets/img/2dtm.png
   width: 1925
   height: 788
