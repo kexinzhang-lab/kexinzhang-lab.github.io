@@ -407,14 +407,9 @@ ninja.data = [{
           description: "A statistical metric for robust target detection in cryo-EM using high-resolution 2D template matching",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2dtm-pvalue/";
-            },},{id: "projects-sub-50-kda-reconstruction-with-2dtm",
-          title: 'Sub-50 kDa reconstruction with 2DTM',
-          description: "Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2dtm/";
             },},{id: "projects-diffpose",
           title: 'DiffPose',
-          description: "Differentiable projection matching for fast pose inference in cryo-EM",
+          description: "Fast projection matching for large-scale in situ template searches",
           section: "Projects",handler: () => {
               window.location.href = "/projects/diffpose/";
             },},{id: "projects-gisapr",
@@ -427,6 +422,11 @@ ninja.data = [{
           description: "Probabilistic classification of cryo-EM targets directly inside cells using 2DTM",
           section: "Projects",handler: () => {
               window.location.href = "/projects/insitu/";
+            },},{id: "projects-cryo-em-of-sub-50-kda-complexes",
+          title: 'Cryo-EM of sub-50 kDa complexes',
+          description: "Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sub-50-kda/";
             },},{
         id: 'social-email',
         title: 'email',
