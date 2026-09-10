@@ -10,7 +10,7 @@ nav_order: 1
 <div class="research-page">
   <div class="research-intro">
     <h2>From noisy images to molecular discovery</h2>
-    <p>We combine cryo-electron microscopy and tomography (cryo-EM/ET), AI, and structural biology to find molecules and understand their structures and states. By bringing these approaches together, we aim to uncover hidden patterns in how molecules are organized within cells.</p>
+    <p>We combine physics-based modeling and AI to detect molecules and characterize their structural states directly from cellular cryo-EM/ET data. Our ultimate goal is to understand how the structures of molecular machines relate to their functions in cells, and to use these insights to guide the design of more effective therapeutics.</p>
   </div>
 
   <nav class="research-index" aria-label="Research projects">
