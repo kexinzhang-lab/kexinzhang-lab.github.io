@@ -42,7 +42,7 @@ nav_order: 1
             <div class="research-links">
               <a href="{{ item.details | relative_url }}">Explore this project <span aria-hidden="true">&rarr;</span></a>
               {% if item.paper %}
-                <a href="{{ item.paper }}">{{ item.paper_label }} <span aria-hidden="true">&nearr;</span></a>
+                <a href="{{ item.paper }}">{{ item.paper_label }} <span aria-hidden="true">↗</span></a>
               {% endif %}
             </div>
           </div>
