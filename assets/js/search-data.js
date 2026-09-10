@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "research",
-          description: "Research vision and projects of the Kexin Zhang Lab.",
+          description: "Computational imaging and discovery, from molecules to cells.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
@@ -25,24 +25,10 @@ ninja.data = [{
           },
         },{id: "nav-team",
           title: "team",
-          description: "Members of the Kexin Zhang Lab.",
+          description: "The people behind our science.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/team/";
-          },
-        },{id: "nav-pi",
-          title: "PI",
-          description: "Kexin Zhang, PI of the Kexin Zhang Lab.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/kexin/";
-          },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "Ongoing research projects and software from the lab.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
           },
         },{id: "nav-news",
           title: "news",
@@ -410,8 +396,11 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "news-lab-website-is-live-we-re-recruiting-for-sep-2026-at-yale-mb-amp-amp-b-postdocs-phd-students-master-s-and-undergrads-see-the-about-page-for-details",
-          title: 'Lab website is live. We’re recruiting for Sep 2026 at Yale MB&amp;amp;amp;B —...',
+      },{id: "news-lab-website-is-live-we-re-recruiting-at-yale-mb-amp-amp-b-postdocs-phd-students-master-s-and-undergrads-see-the-openings-on-our-homepage-for-details",
+          title: 'Lab website is live. We’re recruiting at Yale MB&amp;amp;amp;B — postdocs, PhD students,...',
+          description: "",
+          section: "News",},{id: "news-the-kexin-zhang-lab-officially-launched-in-the-department-of-molecular-biophysics-and-biochemistry-at-yale-university",
+          title: 'The Kexin Zhang Lab officially launched in the Department of Molecular Biophysics and...',
           description: "",
           section: "News",},{id: "projects-robust-target-detection-with-2dtm-p-value",
           title: 'Robust target detection with 2DTM p-value',
@@ -438,11 +427,6 @@ ninja.data = [{
           description: "Probabilistic classification of cryo-EM targets directly inside cells using 2DTM",
           section: "Projects",handler: () => {
               window.location.href = "/projects/insitu/";
-            },},{id: "projects-multiscale-rna-modeling-with-nmr-chemical-shifts",
-          title: 'Multiscale RNA modeling with NMR chemical shifts',
-          description: "Computational methods to determine RNA structures and conformational ensembles from NMR data",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/rna-nmr/";
             },},{
         id: 'social-email',
         title: 'email',
