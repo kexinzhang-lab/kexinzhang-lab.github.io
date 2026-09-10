@@ -19,7 +19,7 @@ latest_posts:
 
 <div class="home-research-intro">
   <div class="home-research-copy">
-    <p>Our work combines imaging physics, statistical inference, and machine learning to push cryo-EM into <strong>previously inaccessible regimes</strong> of structural biology, enabling the visualization of small, flexible, and transient molecular systems directly inside cells.</p>
+    <p>Our lab aims to <strong>extend the reach of cryo-EM and cryo-ET</strong> to small, flexible, and transient molecular systems that remain difficult to study, enabling us to resolve their structures and states within cells.</p>
   </div>
   <figure class="home-research-visual">
     <a href="{{ '/assets/img/research-overview.png' | relative_url }}" aria-label="View the research overview at full size">
