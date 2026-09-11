@@ -29,10 +29,14 @@ nav_order: 3
   <section class="team-members" aria-labelledby="graduate-students">
     <h2 id="graduate-students">Graduate students</h2>
     <ul class="team-member-list">
-      <li>
-        <h3>Hang Li</h3>
-        <p>First-year PhD rotation student</p>
-        <p class="team-member-program">BQBS · Yale University</p>
+      <li class="team-member--with-photo" id="hang">
+        <img class="team-member-photo" src="{{ '/assets/img/hang.jpg' | relative_url }}" alt="Hang Li" width="800" height="800" loading="lazy">
+        <div>
+          <h3>Hang Li</h3>
+          <p>First-year PhD rotation student</p>
+          <p class="team-member-program">BQBS · Yale University</p>
+          <p class="team-member-link"><a href="{{ '/team/hang/' | relative_url }}">Biography <span aria-hidden="true">&rarr;</span></a></p>
+        </div>
       </li>
     </ul>
   </section>
