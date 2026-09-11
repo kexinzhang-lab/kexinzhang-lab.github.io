@@ -1,0 +1,21 @@
+---
+layout: page
+---
+<div class="biography-page">
+  <a class="biography-back" href="{{ '/team/' | relative_url }}#{{ page.team_anchor }}">&larr; Back to the team</a>
+  <div class="biography-intro">
+    <aside class="biography-contact" aria-label="Photo">
+      <img src="{{ page.photo | relative_url }}" alt="{{ page.title }}" width="800" height="800" fetchpriority="high">
+    </aside>
+    <div class="biography-copy">
+      <p class="biography-position">
+        {{ page.role -}}
+        <br>
+        {{ page.program -}}
+        <br>
+        {{ page.institution | default: 'Yale University' }}
+      </p>
+      {{ content }}
+    </div>
+  </div>
+</div>

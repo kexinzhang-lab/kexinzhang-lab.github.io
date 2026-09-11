@@ -40,13 +40,21 @@ nav_order: 3
   <section class="team-members" aria-labelledby="undergraduate-students">
     <h2 id="undergraduate-students">Undergraduate students</h2>
     <ul class="team-member-list">
-      <li>
-        <h3>Samuel Wu</h3>
-        <p class="team-member-program">Molecular Biophysics &amp; Biochemistry · Yale University</p>
+      <li class="team-member--with-photo" id="sam">
+        <img class="team-member-photo" src="{{ '/assets/img/sam.jpg' | relative_url }}" alt="Samuel Wu" width="800" height="800" loading="lazy">
+        <div>
+          <h3>Samuel Wu</h3>
+          <p class="team-member-program">Molecular Biophysics &amp; Biochemistry · Yale University</p>
+          <p class="team-member-link"><a href="{{ '/team/sam/' | relative_url }}">Biography <span aria-hidden="true">&rarr;</span></a></p>
+        </div>
       </li>
-      <li>
-        <h3>Sekai Griffiths-Ferguson</h3>
-        <p class="team-member-program">Molecular Biophysics &amp; Biochemistry and Cognitive Science · Yale University</p>
+      <li class="team-member--with-photo" id="sekai">
+        <img class="team-member-photo" src="{{ '/assets/img/sekai.jpg' | relative_url }}" alt="Sekai Griffiths-Ferguson" width="800" height="800" loading="lazy">
+        <div>
+          <h3>Sekai Griffiths-Ferguson</h3>
+          <p class="team-member-program">Molecular Biophysics &amp; Biochemistry and Cognitive Science · Yale University</p>
+          <p class="team-member-link"><a href="{{ '/team/sekai/' | relative_url }}">Biography <span aria-hidden="true">&rarr;</span></a></p>
+        </div>
       </li>
     </ul>
   </section>

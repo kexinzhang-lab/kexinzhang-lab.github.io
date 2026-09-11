@@ -114,6 +114,33 @@
     .team-member-program {
       color: var(--global-text-color-light);
     }
+
+    // Members with a portrait: photo on the left, text beside it.
+    .team-member--with-photo {
+      display: grid;
+      grid-template-columns: 6.5rem minmax(0, 1fr);
+      align-items: start;
+      gap: 1.25rem;
+    }
+
+    .team-member-photo {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1;
+      object-fit: cover;
+      border-radius: 0.35rem;
+    }
+
+    .team-member-link {
+      margin-top: 0.75rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    li {
+      scroll-margin-top: 6rem;
+    }
   }
 
   a:focus-visible {
