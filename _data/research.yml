@@ -51,19 +51,20 @@
     smaller than 50 kDa. This improves single-particle cryo-EM reconstructions,
     revealing clearer details of ligands and their binding pockets.
   details: /projects/sub-50-kda/
-  image: /assets/img/2dtm.png
-  width: 1925
-  height: 788
-  alt: Before and after views of the ATP binding pocket show improved molecular detail with 2D template matching.
-  caption: A clearer view of ATP and its binding pocket in a small protein kinase A complex.
+  image: /assets/img/2dtm_reconstruction.png
+  width: 3254
+  height: 2039
+  alt: Side-by-side density for residues 222-227 and ATP in protein kinase A from a conventional single-particle map, the 2DTM template, and the 2DTM reconstruction.
+  caption: A clearer view of protein side chains and ATP in a ~41 kDa protein kinase A complex, comparing the conventional single-particle map, the 2DTM template, and the 2DTM reconstruction.
   paper: https://doi.org/10.7554/eLife.109790.1
   paper_label: eLife, 2026
   gallery:
-    - image: /assets/img/2dtm_reconstruction.png
-      width: 3254
-      height: 2039
-      alt: Three reconstructions compare protein features and ATP density in protein kinase A.
-      caption: A closer comparison of protein and ligand density across reconstructions.
+    - video: /assets/video/research/composite-omit-map.mp4
+      poster: /assets/img/research/composite-omit-map.jpg
+      width: 1280
+      height: 656
+      alt: An animation shows residues being deleted from the protein kinase A model, the density near the deleted atoms being kept, and the pieces from 36 omit templates assembled into a composite map.
+      caption: Building a composite omit map. We systematically delete different residues throughout the protein, run 2DTM with each omit template, keep only the density near the deleted atoms, and assemble the pieces into a map free of template bias.
 
 - id: target-detection
   short_title: Target detection
