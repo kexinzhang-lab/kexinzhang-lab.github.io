@@ -20,6 +20,9 @@
           {% else %}
             {{- site.title -}}
           {% endif %}
+          {% if site.header_tagline %}
+            <span class="lab-brand-tagline">{{ site.header_tagline }}</span>
+          {% endif %}
         </span>
       </a>
       {% if page.permalink == '/' and site.enable_navbar_social %}
@@ -148,6 +151,9 @@
         </ul>
       </div>
     </div>
+    <a class="navbar-credit" href="https://pdb101.rcsb.org/sci-art/goodsell-gallery/jcvi-syn3a-minimal-cell">
+      Illustration: David S. Goodsell, RCSB PDB · doi:10.2210/rcsb_pdb/goodsell-gallery-042
+    </a>
   </nav>
   {% if site.enable_progressbar %}
     <!-- Scrolling Progress Bar -->

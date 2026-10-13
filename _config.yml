@@ -10,6 +10,7 @@ contact_note: >
   We welcome inquiries from prospective students, postdocs, and collaborators.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Kexin Zhang Lab — Computational Imaging and Discovery: developing computational methods at the intersection of cryo-EM, machine learning, and structural biology.
+header_tagline: Computational imaging for molecular discovery in native cellular environments. # shown under the lab name in the navbar
 footer_text: >
   &copy; Kexin Zhang Lab.
   Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
