@@ -29,15 +29,38 @@ latest_posts:
 </div>
 
 <figure class="home-movie">
-  <div class="home-movie-frame">
-    <video autoplay loop muted playsinline preload="auto" poster="{{ '/assets/img/research/2dtm-lysate.jpg' | relative_url }}" aria-label="2D template matching: a 3D template of the 60S ribosomal subunit is searched across a cryo-EM micrograph of cell lysate, and detected ribosomes appear in red.">
-      <source src="{{ '/assets/video/research/2dtm-lysate.mp4' | relative_url }}" type="video/mp4">
+  <div class="home-movie-labels" aria-hidden="true">
+    <span>Template<small>60S ribosomal subunit (PDB 5LZV)</small></span>
+    <span>Micrograph<small>BSC-1 cell lysate · EMPIAR-13577</small></span>
+  </div>
+  <div class="home-movie-stage">
+    <video id="home-movie-video" autoplay loop muted playsinline preload="auto" width="1800" height="886" poster="{{ '/assets/img/research/2dtm-lysate-poster.webp' | relative_url }}" aria-label="2D template matching: a 3D template of the 60S ribosomal subunit is searched across a cryo-EM micrograph of cell lysate, and detected ribosomes appear in red.">
+      <source src="{{ '/assets/video/research/2dtm-lysate-light.mp4' | relative_url }}" type="video/mp4">
     </video>
-    <span class="home-movie-label home-movie-label-template">Template<small>60S ribosomal subunit (PDB 5LZV)</small></span>
-    <span class="home-movie-label home-movie-label-micrograph">Micrograph<small>BSC-1 cell lysate · EMPIAR-13577</small></span>
+    <span class="home-movie-status" aria-hidden="true">searching orientations…</span>
   </div>
   <figcaption><strong>Finding molecules in a single image.</strong> Our fast 2D template matching (2DTM) searches a 3D map across orientations and positions in a cryo-EM micrograph of cell lysate. Accuracy mode: 16 true and 3 false positives. Data: Seraj Z, et al. <em>eLife</em> 2026.</figcaption>
 </figure>
+<script>
+  // The movie is rendered onto each theme's background color; swap files when the theme changes.
+  (() => {
+    const video = document.getElementById("home-movie-video");
+    const sources = {
+      light: "{{ '/assets/video/research/2dtm-lysate-light.mp4' | relative_url }}",
+      dark: "{{ '/assets/video/research/2dtm-lysate-dark.mp4' | relative_url }}",
+    };
+    const sync = () => {
+      const src = sources[document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light"];
+      if (video.currentSrc.endsWith(src)) return;
+      const time = video.currentTime;
+      video.src = src;
+      video.currentTime = time;
+      video.play().catch(() => {});
+    };
+    sync();
+    new MutationObserver(sync).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+  })();
+</script>
 
 - **Seeing the unseen** — Small, flexible, and rare molecules hide in noisy images. We build AI-accelerated algorithms that find individual proteins and recover their 3D structures.
 - **Biology inside cells** — Molecular machines behave differently in their native environment. We map where they are, which states they adopt, and how cellular structures are organized around them.
