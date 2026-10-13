@@ -6,9 +6,38 @@
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
+  border-bottom: 0;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  // JCVI-syn3A minimal cell by David S. Goodsell (CC-BY-4.0), darkened so white text stays legible.
+  background:
+    linear-gradient(90deg, rgba(12, 12, 24, 0.8) 0%, rgba(12, 12, 24, 0.55) 45%, rgba(12, 12, 24, 0.7) 100%),
+    url("../img/header-goodsell.webp") center 40% / cover no-repeat,
+    #2a1f3d;
+}
+
+// The header spans wider than the page content so the tagline and links fit on one row.
+@media (min-width: 1200px) {
+  .navbar > .container {
+    max-width: 1180px;
+  }
+}
+
+#search-toggle .nav-link {
+  white-space: nowrap;
+}
+
+.navbar-credit {
+  position: absolute;
+  right: 0.6rem;
+  bottom: 0.15rem;
+  font-size: 0.6rem;
+  color: rgba(255, 255, 255, 0.7) !important;
+
+  &:hover {
+    color: #fff !important;
+    text-decoration: none;
+  }
 }
 
 .navbar .dropdown-menu,
@@ -56,7 +85,8 @@
   }
 
   .navbar-brand {
-    color: var(--global-text-color);
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.55);
   }
 
   .navbar-brand.lab-brand {
@@ -79,24 +109,39 @@
   }
 
   .lab-brand-name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
     color: inherit;
+    font-size: 1.25rem;
+  }
+
+  .lab-brand-tagline {
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 0.85rem;
+    font-weight: 400;
+    white-space: nowrap;
   }
 
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
 
     &:hover {
-      color: var(--global-hover-color);
+      color: #ffd166;
     }
   }
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
     font-weight: bolder;
-    color: var(--global-theme-color);
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.45rem;
 
     &:hover {
-      color: var(--global-hover-color);
+      color: #ffd166;
     }
   }
 
@@ -143,7 +188,7 @@
     display: block;
     width: 22px;
     height: 2px;
-    background-color: var(--global-text-color);
+    background-color: #fff;
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
@@ -182,7 +227,7 @@
   padding: 0;
   border: 0;
   background-color: inherit;
-  color: var(--global-text-color);
+  color: #fff;
   /* Fix footprint to prevent navbar shifting when icon changes */
   width: 2rem;
   height: 2rem;
@@ -191,7 +236,7 @@
   justify-content: center;
 
   &:hover {
-    color: var(--global-hover-color);
+    color: #ffd166;
   }
 }
 
@@ -205,9 +250,34 @@
   padding: 0;
   border: 0;
   background-color: inherit;
-  color: var(--global-text-color);
+  color: #fff;
 
   &:hover {
-    color: var(--global-hover-color);
+    color: #ffd166;
   }
+}
+
+// Tagline needs the full row; hide it once the links collapse into the menu button on small phones
+// and let it wrap on mid-size screens.
+@media (max-width: 1199.98px) {
+  .navbar.navbar-light .lab-brand-tagline {
+    white-space: normal;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar.navbar-light .lab-brand-tagline {
+    display: none;
+  }
+}
+
+// The half-sun/moon icon sets its own color in _themes.scss; keep it white on the image header.
+#light-toggle .fa-half-sun-moon::before,
+#light-toggle .fa-half-sun-moon::after {
+  color: #fff;
+}
+
+#light-toggle:hover .fa-half-sun-moon::before,
+#light-toggle:hover .fa-half-sun-moon::after {
+  color: #ffd166;
 }
