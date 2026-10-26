@@ -26,17 +26,34 @@ nav_order: 3
     </div>
   </section>
 
-  <section class="team-members" aria-labelledby="graduate-students">
-    <h2 id="graduate-students">Graduate students</h2>
+  <section class="team-members" aria-labelledby="phd-students">
+    <h2 id="phd-students">PhD students</h2>
     <ul class="team-member-list">
-      <li class="team-member--with-photo" id="hang">
-        <img class="team-member-photo" src="{{ '/assets/img/hang.jpg' | relative_url }}" alt="Hang Li" width="800" height="800" loading="lazy">
-        <div>
-          <h3>Hang Li</h3>
-          <p>First-year PhD rotation student</p>
-          <p class="team-member-program">BQBS · Yale University</p>
-          <p class="team-member-link"><a href="{{ '/team/hang/' | relative_url }}">Biography <span aria-hidden="true">&rarr;</span></a></p>
-        </div>
+      <li id="hang">
+        <h3>Hang Li</h3>
+        <p>First-year PhD rotation student</p>
+        <p class="team-member-program">BQBS · Yale University</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="team-members" aria-labelledby="masters-students">
+    <h2 id="masters-students">Master's students</h2>
+    <ul class="team-member-list">
+      <li id="kiki">
+        <h3>Kiki He</h3>
+        <p>First-year MS student</p>
+        <p class="team-member-program">CBB · Yale University</p>
+      </li>
+      <li id="cathy">
+        <h3>Cathy Liu</h3>
+        <p>First-year MS student</p>
+        <p class="team-member-program">Health Informatics · Yale University</p>
+      </li>
+      <li id="yunmai">
+        <h3>Yunmai Wang</h3>
+        <p>Second-year MS student</p>
+        <p class="team-member-program">CBB · Yale University</p>
       </li>
     </ul>
   </section>
@@ -44,21 +61,15 @@ nav_order: 3
   <section class="team-members" aria-labelledby="undergraduate-students">
     <h2 id="undergraduate-students">Undergraduate students</h2>
     <ul class="team-member-list">
-      <li class="team-member--with-photo" id="sam">
-        <img class="team-member-photo" src="{{ '/assets/img/sam.jpg' | relative_url }}" alt="Samuel Wu" width="800" height="800" loading="lazy">
-        <div>
-          <h3>Samuel Wu</h3>
-          <p class="team-member-program">Molecular Biophysics &amp; Biochemistry · Yale University</p>
-          <p class="team-member-link"><a href="{{ '/team/sam/' | relative_url }}">Biography <span aria-hidden="true">&rarr;</span></a></p>
-        </div>
+      <li id="sam">
+        <h3>Samuel Wu</h3>
+        <p>Sophomore</p>
+        <p class="team-member-program">Molecular Biophysics &amp; Biochemistry · Yale University</p>
       </li>
-      <li class="team-member--with-photo" id="sekai">
-        <img class="team-member-photo" src="{{ '/assets/img/sekai.jpg' | relative_url }}" alt="Sekai Griffiths-Ferguson" width="800" height="800" loading="lazy">
-        <div>
-          <h3>Sekai Griffiths-Ferguson</h3>
-          <p class="team-member-program">Molecular Biophysics &amp; Biochemistry and Cognitive Science · Yale University</p>
-          <p class="team-member-link"><a href="{{ '/team/sekai/' | relative_url }}">Biography <span aria-hidden="true">&rarr;</span></a></p>
-        </div>
+      <li id="sekai">
+        <h3>Sekai Griffiths-Ferguson</h3>
+        <p>Sophomore</p>
+        <p class="team-member-program">Molecular Biophysics &amp; Biochemistry and Cognitive Science · Yale University</p>
       </li>
     </ul>
   </section>
