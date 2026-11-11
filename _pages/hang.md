@@ -6,7 +6,7 @@ permalink: /team/hang/
 nav: false
 nav_parent: /team/
 photo: /assets/img/hang.jpg
-role: PhD student
+role: Alumni · PhD rotation student
 program: BQBS · Biological & Biomedical Sciences
 team_anchor: hang
 ---

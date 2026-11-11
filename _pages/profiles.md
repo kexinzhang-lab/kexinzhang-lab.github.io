@@ -29,10 +29,8 @@ nav_order: 3
   <section class="team-members" aria-labelledby="phd-students">
     <h2 id="phd-students">PhD students</h2>
     <ul class="team-member-list">
-      <li id="hang">
-        <h3>Hang Li</h3>
-        <p>First-year PhD rotation student</p>
-        <p class="team-member-program">BQBS · Yale University</p>
+      <li>
+        <p class="team-member-program">We're recruiting PhD students. See our <a href="{{ '/' | relative_url }}#join-us--multiple-openings">current openings</a>.</p>
       </li>
     </ul>
   </section>
@@ -70,6 +68,17 @@ nav_order: 3
         <h3>Sekai Griffiths-Ferguson</h3>
         <p>Sophomore</p>
         <p class="team-member-program">Molecular Biophysics &amp; Biochemistry and Cognitive Science · Yale University</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="team-members" aria-labelledby="alumni">
+    <h2 id="alumni">Alumni</h2>
+    <ul class="team-member-list">
+      <li id="hang">
+        <h3>Hang Li</h3>
+        <p>PhD rotation student</p>
+        <p class="team-member-program">BQBS · Yale University</p>
       </li>
     </ul>
   </section>
