@@ -74,7 +74,7 @@ latest_posts:
 The lab is actively recruiting. We welcome applications at every career stage:
 
 - **Postdocs** — strong background in cryo-EM/ET, AI, computational structural biology, or scientific computing. Please email Kexin your CV, a short research statement, and contact info for three references.
-- **PhD students** — students interested in doing a PhD in our lab should apply through Yale's [Biological and Biomedical Sciences (BBS) program](https://medicine.yale.edu/bbs/), via either the [Biochemistry, Quantitative Biology, Biophysics and Structural Biology (BQBS)](https://medicine.yale.edu/bbs/tracks/biochemistry-quantitative-biophysics-structural-biology) or the [Computational Biology and Biomedical Informatics (CBB)](https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics) track. If you are already a Yale graduate student and would like to do a rotation with us, please email Kexin directly. We are accepting rotation students!
+- **PhD students** — we are accepting rotation/PhD students! Current Yale graduate students from any program are welcome. Email Kexin to set up a rotation. Prospective students should apply to a Yale PhD program and mention their interest in our lab.
 - **Master's students** — Yale master's students interested in cryo-EM/ET methods, computational imaging, AI, or scientific software are encouraged to reach out.
-- **Undergraduates** — Yale undergraduates looking for research experience are welcome to inquire about projects. Email Kexin directly with your CV and a brief note about your interests.
+- **Undergraduates** — Yale undergraduates looking for research experience are welcome to inquire about projects.
 - **Postgraduates** — we welcome motivated applicants with a BS or MS and a strong interest in cryo-EM/ET, AI, or computational structural biology who are eager to gain hands-on research experience. Please email Kexin your CV and a brief note about your research interests and goals.
